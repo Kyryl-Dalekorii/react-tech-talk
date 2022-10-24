@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.images-container {
+
+  margin-top: 20px;
+
+  flex: 1 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.images-container img {
+  max-width: 200px;
+  width: 200px;
+  aspect-ratio: 1;
+}
+
+button {
+  padding: 1rem 2rem;
+
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+
+  transition: 300ms;
+  margin-inline: auto;
+}
+
+button:active {
+  scale: 0.9;
+}
